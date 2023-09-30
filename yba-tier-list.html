@@ -1,0 +1,1210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="csrf" content="" id="csrf">
+	<link rel="shortcut icon" href="/img/tildafavicon.ico">
+	<link rel="icon" href="/img/tildafavicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/img/tildafavicon-180x180.png" type="image/png">
+
+	<title>Tilda: Тир Лист Юба</title>
+
+	<script src="/js/jquery-1.10.2.min.js"  type="text/javascript"></script>
+
+<script src="https://static.tildacdn.com/js/tilda-scripts-3.0.min.js"  type="text/javascript"></script>
+
+	<link href="/front/css/t-normalize.min.css?v=78514" rel="stylesheet">
+	<script src="/js/jquery-ui.min.js" type="text/javascript"></script>
+	
+	
+		<link href="/front/css/t-page-all.min.css?v=78514" rel="stylesheet">
+	<link href="/front/css/t-page-edit-all.min.css?v=78514" rel="stylesheet">
+		
+	
+	<link href="/front/css/t-common.min.css?v=78514" rel="stylesheet">
+	<link href="/front/css/td-uikit.min.css?v=78514" rel="stylesheet">
+	<link href="/front/css/t-futura.min.css?v=78514" rel="stylesheet">
+
+	<link href="/front/css/t-popups.min.css?v=78514" rel="stylesheet">
+	<link href="/front/css/formstyler.min.css?v=78514" rel="stylesheet">
+	<link href="/front/css/t-project-settings.min.css?v=78514" rel="stylesheet">
+
+	<script type="text/javascript">
+		
+		window.onerror = function (m, f, l, c, e) {
+			if (!window.td_jserrors) {window.td_jserrors = [];}
+				window.td_jserrors.push({
+					message: m,
+					filename: f,
+					lineno: l,
+					colno: c,
+					error: e
+				});
+		};
+		
+	</script>
+
+	<script src="/front/js/formstyler.min.js?v=78514"  type="text/javascript"></script>
+	<script src="/front/js/t-popups.min.js?v=78514"  type="text/javascript"></script>
+
+	<!-- MiniColors -->
+	<script src="/front/js/jquery.minicolors.min.js?v=78514&nocache=yes"></script>
+	<link rel="stylesheet" href="/front/css/jquery.minicolors.min.css?v=78514&nocache=yes">
+
+	<script type="text/javascript" src="/front/js/t-common.min.js?v=78514"></script>
+	<script type="text/javascript" src="/front/js/t-helpbubble.min.js?v=78514"></script>
+	<script type="text/javascript" src="/front/js/t-translate.min.js?v=78514"></script>
+	
+	<!-- Redactor is here -->
+	<script type="text/javascript" src="/front/js/jquery.htmlClean.min.js?v=78514"></script>
+			<link rel="stylesheet" href="/front/css/quill-custom.min.css?v=78514" />
+		<script type="text/javascript" src="/front/js/t-quill-2.0.min.js?v=78514"></script>
+		<script type="text/javascript">window.ver_redactor='q';</script>		
+		
+	<link href="/front/vendor/redactor/2/tilda_fontcolorex.css" rel="stylesheet">
+	<link href="/front/vendor/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet" />
+	<script src="/front/vendor/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"  type="text/javascript"></script>
+
+	<link href="/front/css/t-upload.min.css?v=78514" type="text/css" rel="stylesheet" />
+	<script src="/front/js/t-upload.min.js?v=78514" type="text/javascript"></script>
+	<script type="text/javascript">
+		lang = "RU";
+		Tildaupload_PUBLICKEY = 'uiyejbdskjfiowe32';
+		Tildaupload_UPLOADKEY = '38643330-3833-4838-a231-616139333863';	</script>
+
+	<!-- Colorpicker -->
+	<link href="/front/css/t-colorpicker.min.css?v=78514" type="text/css" rel="stylesheet" />
+	<script src="/front/js/t-colorpicker.min.js?v=78514" async type="text/javascript"></script>
+
+	<script src="/front/js/t-jserrors.min.js?v=78514"></script>
+	
+	
+
+<link href="/css/tilda-grid-3.0.min.css?v=78514" rel="stylesheet" media="screen">
+
+
+
+
+
+<link href="https://static.tildacdn.com/css/fonts-tildasans.css" rel="stylesheet">
+	
+
+<link href="/projects/style/?projectid=7896149&v=78514" rel="stylesheet" media="screen">
+<script src="/projects/js/?projectid=7896149&v=78514"></script>
+
+	<script src="https://static.tildacdn.com/js/hammer.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-video-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-video-processor-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-cover-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-slds-1.4.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-cards-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-map-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t136.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-forms-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-menusub-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-menu-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/highlight.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-tooltip-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/jquery.touchswipe.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-popup-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-1.1.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/jquery.tooltipster.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t410-beforeafter-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t431-table-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-slides-1.1.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t635-typed-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-cart-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-products-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-catalog-1.1.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-submenublocks-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-vote-1.1.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t806-quiz-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/masonry-imagesloaded.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t835-stepform-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t862-popupstepform-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-feed-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t937-videoplaylist-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-t994-stories-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-wishlist-1.0.min.js?nocache=yes" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-cover-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-events-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-video-processor-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-scale-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-tooltip-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-video-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-gallery-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js" type="text/javascript"></script>
+
+	<link href="https://static.tildacdn.com/css/carousel-btstrp.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-cover-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-cards-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-forms-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-menusub-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-carousel-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/highlight.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tooltipster.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-popup-1.1.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-t410-beforeafter-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-slides-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-cart-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-catalog-1.1.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-feed-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-wishlist-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-cover-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-forms-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-carousel-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/ya-share.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/carousel-btstrp.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-zero-gallery-1.0.min.css" rel="stylesheet" media="screen">
+
+
+
+
+
+<script type="text/javascript">
+	window.ver='78514';
+	</script>
+
+
+</head>
+
+<body style="margin:0px;" data-lang="RU" data-country="AZ">
+
+
+<!-- Fixed main menu -->
+<div class="tp-menu" role="navigation" id="mainmenu">
+
+	<div id="info-alert" style="position:fixed; width:100%; z-index:10000;"></div>
+
+	<div class="tp-menu__wrapper">
+
+				
+	</div>
+
+</div>
+<!--/// Fixed main menu -->
+
+
+
+
+<div id="for_redactor_toolbar" style="position:fixed; top:-60px; left:0; height:60px; width:100%; z-index:2000; background-color:#fff;"></div>
+
+<div class="tp-library"></div>
+
+<div id="editforms" class="pe-container"></div>
+
+<div id="editformsxl"></div>
+
+<div id="closelayer"></div>
+
+<div id="loadicon"><img src="/tpl/img/ajax-loader.gif"></div>
+
+<div class="modal fade tm-popup tm-popup_fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog tm-popup__wrap">
+    <div class="modal-content tm-popup__window" id="myModalContent">
+    </div>
+  </div>
+</div>
+
+<div class="modal fade tm-popup tm-popup_fade" id="myHelpModal" tabindex="-1" role="dialog" aria-labelledby="myHelpModalLabel" aria-hidden="true">
+  <div class="modal-dialog tm-popup__wrap">
+    <div class="modal-content tm-popup__window" id="myHelpModalContent">
+    </div>
+  </div>
+</div>
+
+<div class="td-popup" id="popup_pagesettings">
+	<div class="td-popup__wrap">
+		<div class="td-popup-window">
+		</div>
+	</div>
+</div>
+
+<div id="savesortbuttons">
+	<div><button class="btn default btn-lg" onclick="cancelSort();">Отменить</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" onclick="saveRecordsSort();">Сохранить порядок блоков</button></div>
+</div>
+
+<div id="saveselectbuttons">
+	<div><button class="btn default btn-lg" onclick="cancelSelect();">Вернуться к редактированию</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-move" onclick="selected_records_movemodeon();">Переместить</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-del" onclick="deleteRecordsSelected();">Удалить</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-copy" onclick="selected_records_buf_copy();">Копировать</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-paste" onclick="selected_records_pastemodeon();">Вставить</button></div>
+</div>
+
+<div class="td-popup" id="popup_searchandselectimages">
+    <div class="td-popup__wrap">
+        <div class="td-popup-window">
+          search
+        </div>
+    </div>
+</div>
+
+
+
+<!--allrecords-->
+<div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="7896149" data-tilda-page-id="39970148" data-tilda-page-alias="yba-tier-list" data-blocks-animationoff="yes" data-tilda-mode="edit"  >
+
+<div class="record" id="record646895727" recordid="646895727" off="" data-record-type="60" data-record-category="8" data-record-cod="TL01" >
+
+		
+	<div id="rec646895727" class="r" style="padding-top:120px;padding-bottom:90px; background-color:#fafafb;"  data-bg-color="#fafafb">
+
+		<!-- T050 -->
+<div class="t050">
+  <div class="t-container t-align_center">
+    <div class="t-col t-col_10 t-prefix_1">
+      <div class="t050__uptitle t-uptitle t-uptitle_sm" field="subtitle">Создатель - Фин</div>      <div class="t050__title t-title t-title_xxl" field="title">Тир Лист Юба Сентябрь 2023 - Обновление 1.55 от Пкеров</div>      <div class="t050__descr t-descr t-descr_xxl" field="descr">27 сентября 2023 (Обновление 1.55) - На чтение: 1 мин</div>    </div>
+  </div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                                                
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                        
+                                        
+                                        
+                                                                              
+                                        
+                   
+    
+        
+    
+                                  
+              
+     
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                        
+                                        
+                                        
+                                                                              
+                                        
+                   
+    
+        
+    
+                                  
+              
+     
+   
+      <style> #rec646895727 .t050__uptitle {   text-transform: uppercase; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646895727","60");
+				addEditFieldEvents_new("646895727");
+				addEditOnReady("646895727");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646900261" recordid="646900261" off="" data-record-type="61" data-record-category="2" data-record-cod="TX09" >
+
+		
+	<div id="rec646900261" class="r" style="padding-top:60px;padding-bottom:60px; "  >
+
+		<!-- T051 -->
+<div class="t051">
+	<div class="t-container">
+		<div class="t-col t-col_12 ">
+			<div class="t051__text t-text t-text_md" field="text">Содержание</div>
+		</div>
+	</div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+   
+      <style> #rec646900261 .t051__text {   font-family: 'Georgia'; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646900261","61");
+				addEditFieldEvents_new("646900261");
+				addEditOnReady("646900261");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646899661" recordid="646899661" off="" data-record-type="993" data-record-category="41" data-record-cod="BF802A" >
+
+		
+	<div id="rec646899661" class="r" style="padding-top:90px;padding-bottom:90px; background-color:#fffcfc;" data-animationappear="off" data-bg-color="#fffcfc">
+
+		<!-- t993 -->
+
+    
+
+<div class="t993">
+    <div class="t993__container t-container t-align_center">
+		<div class="t993__col t-col t-col_8 t-prefix_2">
+			<div class="t993__items-list" >
+						    			  
+    			
+    			
+													
+				
+				
+				
+				<a 
+					class="t-btn t993__btn t-btn_md"
+										href="#rec646908946"					 
+										style="color:#ffffff;background-color:#1f5bff;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;"
+				>
+					
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Тир Лист скинов</div>
+																	</div>
+				
+											<div class="t993__btn-arrow t993__btn-arrow_right">
+							<svg role="presentation" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.00071 1L8.27344 9L1.00071 17" stroke="currentColor" stroke-width="2"/>
+							</svg>
+						</div>
+					
+									</a>
+			    			  
+    			
+    			
+													
+				
+				
+				
+				<a 
+					class="t-btn t993__btn t-btn_md"
+										href="#rec646904545"					 
+										style="color:#ffffff;background-color:#1f5bff;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;"
+				>
+					
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Тир Лист стендов</div>
+																	</div>
+				
+											<div class="t993__btn-arrow t993__btn-arrow_right">
+							<svg role="presentation" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.00071 1L8.27344 9L1.00071 17" stroke="currentColor" stroke-width="2"/>
+							</svg>
+						</div>
+					
+									</a>
+			    			  
+    			
+    			
+													
+				
+				
+				
+				<a 
+					class="t-btn t993__btn t-btn_md"
+										href="#rec646905278"					 
+										style="color:#ffffff;background-color:#1f5bff;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;"
+				>
+					
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Тир Лист предметов</div>
+																	</div>
+				
+											<div class="t993__btn-arrow t993__btn-arrow_right">
+							<svg role="presentation" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.00071 1L8.27344 9L1.00071 17" stroke="currentColor" stroke-width="2"/>
+							</svg>
+						</div>
+					
+									</a>
+			    			  
+    			
+    			
+													
+				
+				
+				
+				<a 
+					class="t-btn t993__btn t-btn_md"
+										href="#rec646906001"					 
+										style="color:#ffffff;background-color:#1f5bff;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;"
+				>
+					
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Тир Лист косметики</div>
+																	</div>
+				
+											<div class="t993__btn-arrow t993__btn-arrow_right">
+							<svg role="presentation" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M1.00071 1L8.27344 9L1.00071 17" stroke="currentColor" stroke-width="2"/>
+							</svg>
+						</div>
+					
+									</a>
+						</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646899661","993");
+				addEditFieldEvents_new("646899661");
+				addEditOnReady("646899661");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646901442" recordid="646901442" off="" data-record-type="61" data-record-category="2" data-record-cod="TX09" >
+
+		
+	<div id="rec646901442" class="r" style="padding-top:60px;padding-bottom:60px; "  >
+
+		<!-- T051 -->
+<div class="t051">
+	<div class="t-container">
+		<div class="t-col t-col_2 ">
+			<div class="t051__text t-text t-text_md" field="text">Тир Лист скинов</div>
+		</div>
+	</div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+   
+      <style> #rec646901442 .t051__text {   font-family: 'Georgia'; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646901442","61");
+				addEditFieldEvents_new("646901442");
+				addEditOnReady("646901442");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646908946" recordid="646908946" off="" data-record-type="3" data-record-category="10" data-record-cod="IM01" >
+
+		
+	<div id="rec646908946" class="r" style="padding-top:75px;padding-bottom:75px; "  >
+
+		<!-- T107 -->
+<div class="t107">
+	<div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+		<meta itemprop="image" content="https://static.tildacdn.com/tild3138-6338-4962-b332-653730383436/photo_2023-09-30_16-.jpg">					<img class="t-img t-width t107__widthauto" 
+				src="https://static.tildacdn.com/tild3138-6338-4962-b332-653730383436/photo_2023-09-30_16-.jpg" 
+				imgfield="img"
+												 alt="">
+		
+			</div>
+</div>
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646908946","3");
+				addEditFieldEvents_new("646908946");
+				addEditOnReady("646908946");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646904022" recordid="646904022" off="" data-record-type="61" data-record-category="2" data-record-cod="TX09" >
+
+		
+	<div id="rec646904022" class="r" style="padding-top:60px;padding-bottom:60px; "  >
+
+		<!-- T051 -->
+<div class="t051">
+	<div class="t-container">
+		<div class="t-col t-col_3 ">
+			<div class="t051__text t-text t-text_md" field="text">Тир Лист стендов</div>
+		</div>
+	</div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+   
+      <style> #rec646904022 .t051__text {   font-family: 'Georgia'; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646904022","61");
+				addEditFieldEvents_new("646904022");
+				addEditOnReady("646904022");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646904545" recordid="646904545" off="" data-record-type="3" data-record-category="10" data-record-cod="IM01" >
+
+		
+	<div id="rec646904545" class="r" style="padding-top:75px;padding-bottom:75px; "  >
+
+		<!-- T107 -->
+<div class="t107">
+	<div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+		<meta itemprop="image" content="https://static.tildacdn.com/tild3535-6264-4566-a532-313137316337/my-image-1.png">					<img class="t-img t-width t107__widthauto" 
+				src="https://static.tildacdn.com/tild3535-6264-4566-a532-313137316337/my-image-1.png" 
+				imgfield="img"
+												 alt="">
+		
+			</div>
+</div>
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646904545","3");
+				addEditFieldEvents_new("646904545");
+				addEditOnReady("646904545");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646904834" recordid="646904834" off="" data-record-type="61" data-record-category="2" data-record-cod="TX09" >
+
+		
+	<div id="rec646904834" class="r" style="padding-top:60px;padding-bottom:60px; "  >
+
+		<!-- T051 -->
+<div class="t051">
+	<div class="t-container">
+		<div class="t-col t-col_3 ">
+			<div class="t051__text t-text t-text_md" field="text">Тир Лист предметов</div>
+		</div>
+	</div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+   
+      <style> #rec646904834 .t051__text {   font-family: 'Georgia'; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646904834","61");
+				addEditFieldEvents_new("646904834");
+				addEditOnReady("646904834");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646905278" recordid="646905278" off="" data-record-type="3" data-record-category="10" data-record-cod="IM01" >
+
+		
+	<div id="rec646905278" class="r" style="padding-top:75px;padding-bottom:75px; "  >
+
+		<!-- T107 -->
+<div class="t107">
+	<div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+		<meta itemprop="image" content="https://static.tildacdn.com/tild3861-6137-4531-b264-386438623831/21st_Century.png">					<img class="t-img t-width t107__widthauto" 
+				src="https://static.tildacdn.com/tild3861-6137-4531-b264-386438623831/21st_Century.png" 
+				imgfield="img"
+												 alt="">
+		
+			</div>
+</div>
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646905278","3");
+				addEditFieldEvents_new("646905278");
+				addEditOnReady("646905278");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646905607" recordid="646905607" off="" data-record-type="61" data-record-category="2" data-record-cod="TX09" >
+
+		
+	<div id="rec646905607" class="r" style="padding-top:60px;padding-bottom:60px; "  >
+
+		<!-- T051 -->
+<div class="t051">
+	<div class="t-container">
+		<div class="t-col t-col_3 ">
+			<div class="t051__text t-text t-text_md" field="text">Тир Лист косметики</div>
+		</div>
+	</div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+   
+      <style> #rec646905607 .t051__text {   font-family: 'Georgia'; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646905607","61");
+				addEditFieldEvents_new("646905607");
+				addEditOnReady("646905607");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646906001" recordid="646906001" off="" data-record-type="3" data-record-category="10" data-record-cod="IM01" >
+
+		
+	<div id="rec646906001" class="r" style="padding-top:75px;padding-bottom:75px; "  >
+
+		<!-- T107 -->
+<div class="t107">
+	<div class="t-align_center" itemscope itemtype="http://schema.org/ImageObject">
+		<meta itemprop="image" content="https://static.tildacdn.com/tild3238-6364-4666-b566-363831343064/tier.png">					<img class="t-img t-width t107__widthauto" 
+				src="https://static.tildacdn.com/tild3238-6364-4666-b566-363831343064/tier.png" 
+				imgfield="img"
+												 alt="">
+		
+			</div>
+</div>
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646906001","3");
+				addEditFieldEvents_new("646906001");
+				addEditOnReady("646906001");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646907512" recordid="646907512" off="" data-record-type="61" data-record-category="2" data-record-cod="TX09" >
+
+		
+	<div id="rec646907512" class="r" style="padding-top:60px;padding-bottom:60px; "  >
+
+		<!-- T051 -->
+<div class="t051">
+	<div class="t-container">
+		<div class="t-col t-col_4 ">
+			<div class="t051__text t-text t-text_md" field="text">Приватный сервер по юбе</div>
+		</div>
+	</div>
+</div>
+
+  
+        
+        
+          
+              
+    
+            
+                                    
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                                                          
+                                                          
+                                        
+                                        
+                                        
+                                        
+                                        
+                   
+    
+        
+    
+                                  
+                            
+     
+   
+      <style> #rec646907512 .t051__text {   font-family: 'Georgia'; }</style>
+  
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646907512","61");
+				addEditFieldEvents_new("646907512");
+				addEditOnReady("646907512");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646907866" recordid="646907866" off="n" data-record-type="1075" data-record-category="41" data-record-cod="BF802N" >
+
+		
+	<div id="rec646907866" class="r" style="padding-top:45px;padding-bottom:15px; "  >
+
+		<!-- t1075 -->
+
+
+<div class="t1075">
+	<div class="t-container">
+        <div class="t-col t-col_8 t-prefix_2">
+            <div class="t1075__row t1075__row_center">
+                                                  
+                                <a class="t1075__link  " href="https://www.roblox.com.lk/games/2809202155/S-M-REWORK-Your-Bizarre-Adventure?privateServerLinkCode=06039646027239367212849526535650" target="_blank" >
+                  <div class="t-btn t-btn_md"  style="color:#ffffff;background-color:#050505;">
+                    <div class="t1075__btn-img-wrapper"><svg role="presentation" class="t1075__btn-img t1075__inlinesvg" style="" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 68" fill="#FFFFFF"><path class="st0" d="M16 0h24v24h16L28 52 0 24h16zM0 60h56v8H0z"/></svg></div>
+                    <div class="t1075__btn-text" style="font-weight:">Ссылка</div>
+                  </div>
+                </a>
+                                
+                                			</div>	
+      </div>
+	</div>
+</div>
+
+
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646907866","1075");
+				addEditFieldEvents_new("646907866");
+				addEditOnReady("646907866");
+												
+		});
+	</script>
+	
+
+</div>
+
+
+<div class="record" id="record646906966" recordid="646906966" off="n" data-record-type="1028" data-record-category="32" data-record-cod="SM102" >
+
+		
+	<div id="rec646906966" class="r" style="padding-top:90px;padding-bottom:90px; "  >
+
+		
+<!-- t1028 -->
+    
+
+
+
+	
+
+
+<div class="t1028">
+    <div class="t1028__container t-container t-align_center">
+		<div class="t1028__col t-col t-col_8 t-prefix_2">
+			<div class="t1028__items-list" >
+			    
+			                    			                    
+			    <div class="t1028__item"><a class="t-btn t1028__btn t-btn_md t1028__btn_text-center"  style="display: flex; display: -webkit-flex; padding: 12px;  color:#ffffff;background-color:#1f5bff;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;color: #fff; background-color:#1d98dc;" href="https://t.me/ybatierlistt" target="_blank" rel="noopener"><div class="t1028__btn__img" style="height: 28px; width:28px"><svg class="t-sociallinks__svg" role="presentation" width=28px height=28px viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M83.1797 17.5886C83.1797 17.5886 90.5802 14.7028 89.9635 21.711C89.758 24.5968 87.9079 34.6968 86.4688 45.6214L81.5351 77.9827C81.5351 77.9827 81.124 82.7235 77.4237 83.548C73.7233 84.3724 68.173 80.6623 67.145 79.8378C66.3227 79.2195 51.7273 69.9438 46.5878 65.4092C45.1488 64.1724 43.5042 61.6989 46.7934 58.8132L68.3785 38.201C70.8454 35.7274 73.3122 29.956 63.0336 36.9642L34.2535 56.5459C34.2535 56.5459 30.9644 58.6071 24.7973 56.752L11.4351 52.6295C11.4351 52.6295 6.50135 49.5377 14.9298 46.4457C35.4871 36.7579 60.7724 26.864 83.1797 17.5886Z" fill="#fff"/>
+</svg></div><div class="t1028__btn__text" style="margin-right:0px; margin-left:0px;">Больше Тир Листов тут</div><div class="t1028__btn__arrow"><svg role="presentation" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.00071 1L8.27344 9L1.00071 17" stroke="#fff" stroke-width="2"/></svg></div></a></div>
+			    			    			</div>
+		</div>
+
+        	</div>
+</div>
+
+
+
+	</div>
+
+	
+	<script type="text/javascript">
+		$( document ).ready(function() {
+			
+							addEditUi("646906966","1028");
+				addEditFieldEvents_new("646906966");
+				addEditOnReady("646906966");
+												
+		});
+	</script>
+	
+
+</div>
+
+</div>
+<!--/allrecords-->
+
+<div id="shortcuttooldiv"></div>
+
+
+<br><br><br>
+
+
+<div class="blocksmap" data-hook="blocks-map"></div>
+
+
+
+
+<script type="text/javascript">
+	var $projectid = 7896149;	
+	var $pageid = 39970148;
+	window.projectid = 7896149;	
+	window.pageid = 39970148;
+	window.tildaprojectid = 7896149;
+	window.projectalias = "yba-tir-list";
+	window.pagealias = "yba-tier-list";
+	window.pagepublished = "1696090407";
+	window.pageisindex = "y";
+	window.projectcustomdomain = "yba-tirlist.com";
+	window.userwithus = "70345";
+	window.usercountry = "AZ";
+	window.userrole = "";
+
+	$( document ).ready(function() {
+	    closeEditForm();
+		
+				
+		var data = getshortcuttool();
+		$("#shortcuttooldiv").html(data);
+		
+				
+
+		updateUndoButton();
+		sortModeOn();
+
+		
+		
+		
+				
+		setTimeout(function() {
+			tp_showOnboardingZeroSlider();
+		}, 1500);
+		
+		
+		
+		
+
+		setTimeout(function() {
+			initLibrary();
+		}, 500);
+
+	});
+
+	$( window ).load(function() {
+			});
+
+	var $uplan = "1";
+	var $userid = "7354957";
+	var $oplan = "1";
+	var $opaid = "";
+	var $headlinefont = "TildaSans";
+	var $textfont = "TildaSans";
+	var $textfontweight = "";
+	var $textfontsize = "";
+	var $typekitid = "";
+	var $is_email = "";
+				var $lang = "RU";
+
+		
+	</script>
+	<script src="/page/tplslistjs/?v=78514&lang=ru" type="text/javascript"></script>
+	<script type="text/javascript">	
+
+	var tempdatarecs = [];
+	var tempdatafields = [];
+	var currentkit = 0;
+	var openedtypes = [];
+	var fishes;
+
+		var fishes = '[]';
+		
+	window.projecttitle = "YBA-TIER-LIST";
+	window.pagetitle = "Тир Лист Юба";
+	
+	
+		
+	
+</script>
+
+
+
+	<script src="/front/js/t-page-all.min.js?v=78514" type="text/javascript"></script>
+	<script src="/front/js/t-record-all.min.js?v=78514" type="text/javascript"></script>
+	<script src="/front/js/t-edrec-all.min.js?v=78514" type="text/javascript"></script>
+
+	
+
+
+
+
+
+
+
+
+
+</body>
+</html>
